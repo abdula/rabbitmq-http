@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-http",
+  "version": "0.0.1",
+  "description": "rabbitmq http client",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_DEBUG=request mocha -R spec ./test/index.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "rabbitmq-http"
+  ],
+  "author": "Ivan Maksimenko ivanmaximenko@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "request-promise": "^0.4.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.3"
+  }
+}
